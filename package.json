@@ -1,0 +1,27 @@
+{
+  "name": "22berry",
+  "version": "1.0.0",
+  "description": "Web Application for placing orders and updating a menu for a restaurant",
+  "main": "menuSchema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAGandhi92/22Berry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAGandhi92/22Berry/issues"
+  },
+  "homepage": "https://github.com/SAGandhi92/22Berry#readme",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "ejs": "^2.3.1",
+    "express": "^4.13.0",
+    "method-override": "^2.3.3",
+    "mongodb": "^2.0.35"
+  }
+}
