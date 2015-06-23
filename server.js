@@ -11,7 +11,7 @@ server.set('views', "./views");
 server.set('view engine', "ejs");
 
 server.use();
-server.use(bodyParser.urlencoded{extended: true}));
+server.use(bodyParser.urlencoded({extended: true}));
 server.use(methodOverride("_method"))
 
 
