@@ -13,16 +13,24 @@ server.set('view engine', "ejs");
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(methodOverride("_method"));
 
+
+
+//INDEX
+server.get('/', function(req, res) {
+  res.render('menu')
+  console.log("Main Page Accessed");
+});
+
+//CREATE
+server.get('/add', function(req, res){
+  res.render('menuAddItem')
+  console.log("Add Page Accessed");
+});
+
 server.listen(3000, function(){
   console.log("Server Ready");
 })
-//
-// //INDEX
-// server.get();
-//
-// //CREATE
-// server.post();
-//
+
 // //SHOW
 // server.new();
 //
