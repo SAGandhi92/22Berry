@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Home </title>
+  <link rel="stylesheet" type="text/css" href="style
+  _kitch.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Philosopher:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <h1>Menu Items</h1>
+  <button class="add"> Add New Menu Items </button>
+  <button class="edit"> Edit Menu Items </button>
+  <button class="remove"> Remove Menu Items </button>
+</body>
+</html>

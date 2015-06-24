@@ -1,0 +1,37 @@
+* {
+	background: #DAD7CD;
+	font-family: 'Philosopher', sans-serif;
+
+}
+h1 {
+	margin: auto;
+	padding-left: 30%;
+	font-size: 40px;
+	padding-top: 60px;
+	margin-bottom: 5em;
+}
+button {
+	padding: 40px;
+	background-color: #0F5257;
+	color: white;
+	transition: all 1s ease;
+	margin-bottom: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	box-shadow: 0px,0px,5px,3px darkgrey;
+}
+
+.kitchen{
+	margin-left: 15em;
+	margin-right: 10em;
+	
+}
+
+.counter{
+	margin-left: 10em
+}
+
+button:hover{
+	background-color: #588157;
+	cursor: pointer;
+}
