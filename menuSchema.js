@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/22berry');
+mongoose.connect('mongodb://localhost/3000');
 var db = mongoose.connection;
 db.on('open', function(){
   console.log('DB Connected');
