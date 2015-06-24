@@ -13,7 +13,7 @@ server_counter.set('view engine', "ejs");
 
 server_counter.use();
 server_counter.use(bodyParser.urlencoded{extended: true}));
-server.use(methodOverride("_method"))
+server_counter.use(methodOverride("_method"))
 
 
 //INDEX
