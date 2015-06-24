@@ -1,32 +1,39 @@
-*{
+* {
+	background: #DAD7CD;
+	font-family: 'Philosopher', sans-serif;
+
+}
+h1 {
+	margin: auto;
+	padding-left: 30%;
+	font-size: 40px;
+	padding-top: 60px;
+	margin-bottom: 5em;
+}
+
+button {
+	padding: 40px;
+	background-color: #0F5257;
+	color: white;
+	transition: all 1s ease;
+	margin-bottom: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	box-shadow: 0px,0px,5px,3px darkgrey;
+}
+
+.kitchen{
+	margin-left: 15em;
+	margin-right: 10em;
 	
 }
 
-.profession{
-	position: relative;
-	display: inline-block;
-	width: 49vw;
-	height: 100vh;
-	color: white;
-	text-align: center;
-	background-color: green;
-	margin: 0;
-	padding: 0;
-	transition: all .5s ease;
+.counter{
+	margin-left: 10em
 }
 
-.profession:hover{
-	background-color: white;
-	color: black;
+button:hover{
+	background-color: #588157;
+	cursor: pointer;
 }
 
-.Berry{
-	display:flex;
-	justify-content:center;
-}
-
-#counter, #kitchen{
-	display:flex;
-	justify-content:center;
-	align-items: center;
-}
